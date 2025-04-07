@@ -1,0 +1,4 @@
+[submodule "idk"]
+	path = idk
+	url = https://github.com/mechacinnamon/scammerbuffer.git
+	branch = main
