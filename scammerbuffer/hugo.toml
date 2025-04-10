@@ -1,4 +1,4 @@
 baseURL = 'https://mechacinnamon.github.io/scammerbuffer/'
 languageCode = 'en-us'
 title = 'Scammer Buffer'
-theme='stack'
+theme = 'stack'
