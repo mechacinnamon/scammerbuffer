@@ -1,7 +1,5 @@
-baseURL = 'https://mechacinnamon.github.io/scammerbuffer/'
+baseURL = 'http://example.org'
 languageCode = 'en-us'
 title = 'Scammer Buffer'
 
-[module]
-  [[module.imports]]
-    path = 'github.com/mechacinnamon/scammerbuffer'
+theme = 'lugo'
