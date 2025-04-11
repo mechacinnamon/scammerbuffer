@@ -1,0 +1,24 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>Scammer Buffer</title>
+	<link>http://localhost:1313/tags/anti-scamming/</link>
+	<description>Recent content in Anti-Scamming on Scammer Buffer</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>en-us</language>
+    
+        <atom:link href="http://localhost:1313/tags/anti-scamming/index.xml" rel="self" type="application/rss+xml" />
+	
+	
+	<item>
+		<title>About Me</title>
+		<link>http://localhost:1313/about/</link>
+		<pubDate>Fri, 11 Apr 2025 00:40:01 +0200</pubDate>
+		
+		<guid>http://localhost:1313/about/</guid>
+		<description>&lt;h1 id=&#34;who-i-am&#34;&gt;Who I Am&lt;/h1&gt;
+&lt;p&gt;I am a student at a University in Italy.&lt;/p&gt;
+</description>
+	</item>
+	
+	</channel>
+</rss>

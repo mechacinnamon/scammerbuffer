@@ -5,22 +5,29 @@
 	<description>Recent content on Scammer Buffer</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
-	<lastBuildDate>Fri, 11 Apr 2025 00:40:01 +0200</lastBuildDate>
+	<lastBuildDate>Fri, 11 Apr 2025 01:00:55 +0200</lastBuildDate>
     
         <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
 	
 	
 	<item>
-		<title>About</title>
+		<title>First Episode</title>
+		<link>http://localhost:1313/first-episode/</link>
+		<pubDate>Fri, 11 Apr 2025 01:00:55 +0200</pubDate>
+		
+		<guid>http://localhost:1313/first-episode/</guid>
+		<description>&lt;h1 id=&#34;me-approaching-the-dream-of-becoming-rich&#34;&gt;Me Approaching the Dream of Becoming Rich&lt;/h1&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>About Me</title>
 		<link>http://localhost:1313/about/</link>
 		<pubDate>Fri, 11 Apr 2025 00:40:01 +0200</pubDate>
 		
 		<guid>http://localhost:1313/about/</guid>
-		<description>&lt;p&gt;My Story With Scammers&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;scammers&lt;/li&gt;
-&lt;li&gt;anti-scamming&lt;/li&gt;
-&lt;/ul&gt;
+		<description>&lt;h1 id=&#34;who-i-am&#34;&gt;Who I Am&lt;/h1&gt;
+&lt;p&gt;I am a student at a University in Italy.&lt;/p&gt;
 </description>
 	</item>
 	

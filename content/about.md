@@ -1,9 +1,6 @@
 +++
 date = '2025-04-11T00:40:01+02:00'
-title = 'About'
+title = 'About Me'
 +++
-My Story With Scammers
-
-- scammers
-- anti-scamming
-
+# Who I Am
+I am a student at a University in Italy.

@@ -2,14 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/antiscamming/</loc>
+    <lastmod>2025-04-11T01:00:55+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/first-episode/</loc>
+    <lastmod>2025-04-11T01:00:55+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-04-11T01:00:55+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/scammers/</loc>
+    <lastmod>2025-04-11T01:00:55+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-04-11T01:00:55+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/about/</loc>
     <lastmod>2025-04-11T00:40:01+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-04-11T00:40:01+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
