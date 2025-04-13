@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    <div id="indicator"></div>
+    <div id="page">
+      <style>
+        .title {
+          padding: 5%;
+          color: #111010;
+          font-size: 19px;
+          font-weight: bold;
+          text-align: center;
+          background: #af66f7;
+          display: grid;
+        }
+        .author-bio {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          font-size: 24px;
+          font-weight: bold;
+          color: rgb(234, 221, 221);
+        }
+        .author-bio img {
+          margin-bottom: 1rem;
+          width: 200px !important;
+          border-radius: 100%;
+          border: 4px solid #ccce52 !important;
+        }
+      </style>
+      <!-- header -->
+      {% include header.html %}
+      <!-- nav -->
+      {% include nav.html %}
+      <!-- page content -->
+      <main class="content">
+        <div class="author-bio">
+          <img src="{{page.profile_pic}}" alt="{{page.profile_pic_alt}}" />
+          <p>{{page.short_bio}}</p>
+        </div>
+        {{content}}
+      </main>
+
+      <!-- footer -->
+      {% include footer.html %}
+    </div>
+  </body>
+</html>

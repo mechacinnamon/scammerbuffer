@@ -1,5 +1,0 @@
-baseURL = 'https://www.carefaze.com/'
-languageCode = 'en-us'
-title = 'Scammer Buffer'
-
-theme = 'hugo-theme-island'
