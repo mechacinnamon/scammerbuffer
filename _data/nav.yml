@@ -1,8 +1,17 @@
 list:
-  - title: Home
+  - title: Homepage
     url: ""
+
+  - title: Links
+    url: "links"
+
   - title: About
-    url: about
+    url: "about"
+
+  - title: Donate
+    url: "donate"
+
   - title: Feed
-    url: feed.xml
+    url: "feed.xml"
     target: "_blank"
+

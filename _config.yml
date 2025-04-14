@@ -1,14 +1,12 @@
 title: Scammer Buffer
 markdown: kramdown
-url: ""
-baseurl: ""
-
-
-
+url: "carefaze.com"
+baseurl: "/"
+description: "A blog about scams, frauds, how to avoid them. And the tactics used by scammers to trick you."
 # for atom feed
 author:
   name: Scammer Buffer
-  email: dev_sharad@outlook.com
+  email: legal.asset.07@gmail.com
 
 plugins:
   - jekyll-paginate
@@ -22,6 +20,7 @@ paginate_path: "/page:num/"
 paginate: 5
 
 collections_dir: all_collections
+
 collections:
   posts:
     output: true
@@ -40,3 +39,4 @@ defaults:
       permalink: /posts/:categories/:year/:month/:day/:title/
 
 exclude: ["sitemap.xml", "feed.xml", "LICENSE", "README.md"]
+

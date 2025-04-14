@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    <div id="indicator"></div>
+    <div id="page">
+      <style>
+        .links {
+          padding: 4%;
+          font-size: 19px;
+          font-weight: bold;
+        }
+        .primary {
+          color: rgb(151, 83, 240);
+          font-weight: bold;
+        }
+      </style>
+      <!-- header -->
+      {% include header.html %}
+      <!-- nav -->
+      {% include nav.html %}
+      <!-- page content -->
+      <main class="content">
+        <div class="links">
+          {{content}}
+        </div>
+        <p class="primary">Just follow me! Don't play with these serious things kid!</p>
+      </main>
+
+      <!-- footer -->
+      {% include footer.html %}
+    </div>
+  </body>
+</html>
