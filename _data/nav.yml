@@ -5,11 +5,11 @@ list:
   - title: Links
     url: "links"
 
-  - title: About
-    url: "about"
-
   - title: Donate
     url: "donate"
+
+  - title: About
+    url: "about"
 
   - title: Feed
     url: "feed.xml"
