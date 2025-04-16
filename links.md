@@ -1,9 +1,13 @@
 ---
-title: Link System
+title: Links
 layout: links
 ---
 
-- [Send Me an Email](mailto:legal.asset.07@gmail.com)
+## Special
+- [Send Me an Email (contact me)](mailto:legal.asset.07@gmail.com)
+- [Subscribe to my Newsletter on Gumroad (to receive emails)](https://scammerbuffer.gumroad.com/)
+
+## Social Media
 - [X.COM](https://x.com/scammerbuffer)
 - [YouTube](https://www.youtube.com/channel/UCYC4RaYK1xUdCYLjbCQOK_w)
 - [Discord Profile](https://discord.gg/WdfcApVt)

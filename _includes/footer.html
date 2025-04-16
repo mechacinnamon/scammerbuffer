@@ -1,9 +1,26 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+
+<style>
+	.footer-logo {
+		color: #72b6b5 !important;
+		text-decoration: underline !important;
+		font-size: 11.5px !important;
+
+		font-family: "National Park", sans-serif;
+	}
+	hr {
+		border: none;
+		height: 3px;
+	}
+</style>
+
+
 <footer>
+	<hr>
 	<p>
-		<span style="font-style: italic;">{{site.data.extra.list.footer_bio}}</span>
-	</p>
-	<p>
-		&copy 2025 {{site.title}}
+		{{site.data.extra.list.footer_bio}} | &copy 2025 <a class="footer-logo" href="{{site.baseurl}}/">{{site.title}}</a>
 	</p>
 </footer>
+
 <script src='{{site.baseurl}}/assets/js/site.js' id="pill_site_script" type='module'></script>

@@ -17,3 +17,5 @@ gem "jekyll-sitemap"
 gem "jekyll-feed"
 
 # gem "jekyll-theme-dark-reader"
+
+gem 'jekyll-compose'

@@ -5,29 +5,9 @@
     <div id="indicator"></div>
     <div id="page">
       <style>
-        .title {
-          padding: 5%;
-          color: #111010;
-          font-size: 19px;
-          font-weight: bold;
-          text-align: center;
-          background: #af66f7;
-          display: grid;
-        }
-        .author-bio {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          font-size: 24px;
-          font-weight: bold;
-          color: rgb(234, 221, 221);
-        }
-        .author-bio img {
-          margin-bottom: 1rem;
-          width: 200px !important;
-          border-radius: 100%;
-          border: 4px solid #ccce52 !important;
+        .walloftext p , h2 {
+          margin: 0 0 20px 0 !important;
+          font-weight: bold !important;
         }
       </style>
       <!-- header -->
@@ -36,11 +16,40 @@
       {% include nav.html %}
       <!-- page content -->
       <main class="content">
-        <div class="author-bio">
-          <img src="{{page.profile_pic}}" alt="{{page.profile_pic_alt}}" />
-          <p>{{page.short_bio}}</p>
+
+        <h1 class="title">{{page.title}}</h1>
+
+        <div class="walloftext">
+          <h2>
+            Who is Scammer Buffer?
+          </h2>
+          <p>
+            A computer science university student who lost almost <u>eight years</u> of
+            life savings to a scam that lasted barely <u>a week</u>.
+          </p>
+          <h2>
+            Why am i Here?
+          </h2>
+          <p>
+            I am here to help you avoid the same mistakes I made.
+            I will share my experience and knowledge with you,
+            so you can be better prepared than i was for your entrepreneurial endeavours, if you have them. I will help you understand if any circumstance is a scamminng practice to avoid getting scammed in your business journey.
+          </p>
+          <p>
+            Because you can't imagine how much it hurt me to have my money stolen by some heartless scammers and i didn't even tell nobody about it. My parents think i have like $4k or more with me whilst i have less than $1k now and i have to pay something every month. I live with my parents so it's easy for some things but i lost almost all of my money! So i won't let my story be unheard!
+          </p>
+          <p>
+            So read everything here, it's free! Except that there are some ads i will put because i have to pay for the domain of the website. And maybe earn a little so i can gain my scammed money back. If you want to donate to me i would also appreciate it very much!
+          </p>
+          <p>
+            Other than that you can also contact me with my links or socials in the dedicated page. I can talk with you for free, for a particular scamming-related situation which you find yourself in.
+          </p>
+          <h2>So What Will you Find on This Website?</h2>
+          <p>Currently i just create many valuable articles with my story but very soon i will provide other types of articles with the most currently practiced scams in the world. Then i also have a secret project. So subscribe to the email list to stay updated with the scamming activities in the world, or just share it to someone who you might think needs it.</p>
+          <h2>How Can i Help You?</h2>
+          <p>Like i said feel free to contact me to receive an analysis of your chat or other conversations you may think are scams, do this before proceeding to give money to strangers please!</p>
         </div>
-        {{content}}
+
       </main>
 
       <!-- footer -->

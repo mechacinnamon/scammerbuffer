@@ -5,4 +5,4 @@ layout: donate
 
 
 - [Ko-Fi](https://ko-fi.com/scammerbuffer)
-- [Gumroad](https://scammerbuffer.gumroad.com/)
+- [Buy me a Coffee](https://buymeacoffee.com/scammerbuffer/)

@@ -1,8 +1,9 @@
 title: Scammer Buffer
 markdown: kramdown
-url: "carefaze.com"
-baseurl: "/"
-description: "A blog about scams, frauds, how to avoid them. And the tactics used by scammers to trick you."
+url: "www.carefaze.com"
+baseurl: ""
+description: "A blog about scams, frauds, how to avoid them. And the tactics used by scammers to trick you. You will discover a world within ours hidden from the public, but that will blow your mind if you are an entrepreneur."
+
 # for atom feed
 author:
   name: Scammer Buffer
@@ -14,12 +15,23 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-compose
 
 paginate_path: "/page:num/"
 
 paginate: 5
 
 collections_dir: all_collections
+
+jekyll_compose:
+  default_front_matter:
+    posts:
+      layout: post
+      title: 
+      author: 
+      categories: 
+      tags: 'antiscamming, scammer, scam, fraud, dropshipping, business, money, online, ecommerce, marketing, social media, influencer, affiliate, crypto, bitcoin, investment, trading, stock, forex, real estate, pyramid scheme, ponzi scheme, phishing, identity theft, credit card fraud, wire transfer fraud, advance-fee fraud, lottery scam, romance scam, tech support scam, charity scam, business email compromise (BEC), ransomware, malware, spyware, adware'
+  post_default_dir: "all_collections\_posts"
 
 collections:
   posts:

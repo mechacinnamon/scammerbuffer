@@ -1,10 +1,27 @@
 ---
-title: Antiscamming Guide Website
+title: Antiscamming Guide
 layout: collections_layout
 short_description: A fine collection of posts that expose how impactful the scamming matrix is.
 ---
 
-{% for post in site.posts %}
-<a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
-{%endfor%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .menulinks {
+      line-height: 16px !important;
+      font-size: 19px !important;
+      padding: 4px 0 4px 0;
+    }
+  </style>
+</head>
+<body>
 
+  {% for post in site.posts %}
+  <a class="menulinks" href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+  {%endfor%}
+  
+</body>
+</html>

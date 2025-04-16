@@ -7,8 +7,10 @@
       <style>
         .links {
           padding: 4%;
-          font-size: 19px;
+          font-size: 21px;
           font-weight: bold;
+          color: #70f05f !important;
+          
         }
         .primary {
           color: rgb(151, 83, 240);
@@ -18,6 +20,10 @@
           color: rgb(232, 240, 83);
           font-weight: bold;
         }
+        .links a {
+          line-height: 40px;
+          color: #70f05f !important;
+        }
       </style>
       <!-- header -->
       {% include header.html %}
@@ -25,11 +31,12 @@
       {% include nav.html %}
       <!-- page content -->
       <main class="content">
+        <h1 class="title">Donate</h1>
         <div class="links">
           {{content}}
         </div>
         <p class="primary">Or just follow me and remember, spread the word! ;)</p>
-        <p class="goal">I have the goal to reach the money i had with your donations (around $3k), i will keep building this guide to antiscamming and maybe make other projects!.</p>
+        <p class="goal">I have the goal to get back the money i had with some donations (around $3k), in return i will keep building this guide and become a reference in antiscamming! I also plan to make other projects!</p>
       </main>
 
       <!-- footer -->

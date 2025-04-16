@@ -5,19 +5,17 @@
     <div id="indicator"></div>
     <div id="page">
       <style>
-        .title {
-          padding: 5%;
-          color: #111010;
-          font-size: 24px;
-          font-weight: bold;
-          text-align: center;
-          background: #af66f7;
-          display: grid;
-        }
         .meta {
           font-size: 15px;
           font-weight: bold;
           text-transform: uppercase;
+        }
+        main {
+          margin-bottom: 48px;
+          font-weight: bolder;
+        }
+        .title {
+          margin-bottom: 30px;
         }
       </style>
       <!-- header -->
@@ -26,7 +24,7 @@
       {% include nav.html %}
       <!-- page content -->
       <main class="post-list">
-        <p class="title">{{page.title}}</p>
+        <h1 class="title">{{page.title}}</h1>
         {{content}}
       </main>
 

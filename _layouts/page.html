@@ -1,34 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
   {% include head.html %}
-  <body>
-    <div id="indicator"></div>
-    <div id="page">
-      <style>
-        .title {
-          padding: 5%;
-          color: #111010;
-          font-size: 19px;
-          font-weight: bold;
-          text-align: center;
-          background: #af66f7;
-          display: grid;
-        }
-      </style>
-      <!-- header -->
-      {% include header.html %}
-      <!-- nav -->
-      {% include nav.html %}
-      <!-- page content -->
-      <main class="content">
-        <p class="title">
-          {{page.title}}
-        </p>
-        {{content}}
-      </main>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
 
-      <!-- footer -->
-      {% include footer.html %}
-    </div>
-  </body>
+  <div id="indicator"></div>
+  <div id="page">
+    <!-- header -->
+    {% include header.html %}
+    <!-- nav -->
+    {% include nav.html %}
+    <!-- page content -->
+    <main class="content">
+      <h1 class="title">
+        {{page.title}}
+      </h1>
+      {{content}}
+    </main>
+
+    <!-- footer -->
+    {% include footer.html %}
+  </div>
+  
+</body>
 </html>

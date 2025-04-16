@@ -1,10 +1,29 @@
 * {
 	outline: none;
-	--theme-color: rgb(240, 216, 117);
+	--theme-color: rgb(217, 214, 107);
+	box-sizing: border-box;
+}
+
+html {
+	overflow-y: scroll; /* Forza la scrollbar verticale */
+}
+
+.title {
+	padding: 6%;
+	color: #111010;
+	text-align: center;
+	background: rgb(148, 69, 252);
+	display: grid;
+	font-weight: bold;
+
+    font-family: "National Park", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 
 body {
-	color: rgb(203, 193, 187) !important;
+	color: rgb(205, 194, 194) !important;
 }
 
 img {
@@ -14,103 +33,112 @@ img {
 /* header */
 
 header {
-	margin: 1.5rem 20% -2rem 20%;
-	display: flex;
-	justify-content: center;
+    min-height: 100px;
+    margin: 1.5rem 20% 1.5rem 20%;
+    display: flex;
+    justify-content: center;
 }
 
 header * {
-	/*color: var(--theme-color) !important;*/
-	color: rgb(193, 135, 255);
-	font-size: 24px !important;
+    /*color: var(--theme-color) !important;*/
+    color: rgb(189, 127, 254);
+    font-size: 24px !important;
+
+    font-family: "National Park", sans-serif;
 }
 
 /* nav */
 
 nav {
+    font-family: "National Park", sans-serif;
+
 	margin-left: 20%;
 	margin-right: 20%;
-	padding-top: 3rem;
+	margin-top: 1.5rem;
 	line-height: 2rem;
 }
 
 nav a {
-	color: #72b6b5 !important;
-	padding-right: 1rem;
-	font-size: 15px;
-	font-weight: bold;
+    color: #72b6b5 !important;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 20px 20px 20px 0 ;
 }
 
 nav a:hover {
-	text-decoration: underline !important;
+    text-decoration: underline !important;
 }
 
 /* main */
 
 main {
-	margin-top: 2rem;
-	margin-left: 20%;
-	margin-right: 20%;
-	display: grid;
-	grid-gap: 1.4rem;
-	line-height: 1.5rem;
+    margin: 2rem 20%;
+    display: grid;
+    grid-gap: 1.4rem;
+    line-height: 1.5rem;
 }
 
 .content a {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 .post-list a {
-	text-decoration: none;
-	position: relative;
-	color: var(--theme-color) !important;
-	/* color: #72b6b5 !important; */
+    text-decoration: none;
+    position: relative;
+    color: var(--theme-color) !important;
+    /* color: #72b6b5 !important; */
 }
 
 .post-list a:after {
-	content: "";
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 0%;
-	border-bottom: 2px solid var(--theme-color);
-	transition: 0.4s;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    border-bottom: 2px solid var(--theme-color);
+    transition: 0.4s;
 }
 
 .post-list a:hover:after {
-	width: 100%;
+    width: 100%;
 }
 
 .post-list a:before,
 .post-list a:before {
-	content: "#";
-	color: #dddddd;
-	position: absolute;
-	left: -0.8em;
-	font-weight: bold;
+    content: "#";
+    color: #dddddd;
+    position: absolute;
+    left: -0.8em;
+    font-weight: bold;
 }
 
 /* footer */
 
 footer {
-	font-weight: 900;
-	color: #72b6b5;
-	font-size: 9.25px;
-	margin: 4rem 20% 4rem 20%;
+    color: #72b6b5;
+    font-size: 11.5px;
+    margin: 1rem 20% 5rem 20%;
 }
 
 footer p {
-	line-height: 0rem;
-	max-height: 0px;
-	font-weight: 900;
+    line-height: 0rem;
+    max-height: 0px;
+    font-weight: 700;
+
+    font-family: "National Park", sans-serif;
 }
 
 @media screen and (max-width: 780px) {
-	nav,
-	header,
-	footer,
-	main {
-		margin-left: 10%;
-		margin-right: 10%;
-	}
+    nav,
+    header,
+    footer,
+    main {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 }
+
+/*
+header, nav, main {
+	border: 1px solid red; 
+} debug */
