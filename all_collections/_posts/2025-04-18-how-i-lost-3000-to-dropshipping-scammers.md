@@ -122,7 +122,7 @@ Because in those servers i would find scammers!
 
 I want to discuss briefly how the scam takes place and then i will go into detail.
 
-So the scammers i dealt with are just <b>dropshipping scammers</b> in this article but i will discuss other scammers and i recently talked with some girls on instagram and i think it's another type of scam i will discuss in my second article because it affects pretty much boys and i am safe maybe just because i saw a certain video on Youtube from someone who fell to this scam otherwise i think i would've fell for another scam!
+So the scammers i dealt with are just <b>dropshipping scammers</b> in this article but i will discuss other scammers to fight scamming on this website. I recently talked with some girls on instagram and i think it's another type of scam i will discuss in another article because it affects pretty much boys and i am safe maybe just because i saw a certain video on Youtube from someone who fell to this scam otherwise i think i would've fell for another scam!
 
 The scammers are pretty much very prone to talking to you first in the discord servers, and i also have a theory that they are all kind of stupid in a way. Every scammers it's like a bit stupid because they do some actions that reveal them it's just that if you are helpless, alone, fragile and emotional like i was, you can still fall for some scams!
 
@@ -182,13 +182,17 @@ While i was making the first payments, the first scammer which is the biggest on
 
 Then he asked me to start creating a shopify store etc.
 
+![](https://files.catbox.moe/uuy1b4.png)
+
+He wasn't here for a talk or some fun we could say, he was in <b>business</b>.
+
 ![](https://files.catbox.moe/ahgffn.png)
 
 ![](https://files.catbox.moe/ax3ffe.png)
 
-I asked if i could do the naming what are our roles etc. (so as you can see i was very keen on and serious and he just didn't give a damn) because i thought that we would work on it together or that it would be a serious thing you know?
+I asked if i could do the naming what are our roles etc. (so as you can see i was very keen on and serious and he just didn't give a damn) because i thought that we would work on it together or that it would be a serious thing something like that.
 
-He was... very calm, like there was nothing to worry about, but i understand it now because he was just after my money, then when he gets it he would leave ASAP so i understand now why it wasn't worried like i was, because you see
+On the other hand he was... very calm, like there was nothing to worry about, but i understand it now because he was just after my money, then when he gets it he would just troll me or leave so i understand now why it wasn't worried like i was, because you see i understood that:
 
 > a business is like a child and whoever starts it is his parent but other people can't or don't want to take care of your child, so the only one concerned with your child is you.
 
