@@ -1,5 +1,4 @@
 ---
-draft: "true";
 layout: post
 title: How I Lost $3000 To Dropshipping Scammers
 date: 2025-04-18 22:28 +0200
@@ -66,6 +65,8 @@ tags:
 > Hello everyone, this is the story of how i lost $3000 in a scam involving fake dropshipping mentors listen carefully and if you have entrepreneurial goals i suggest you to avoid these scammers or even don't do dropshipping at all! Do something else it's all a lie. <u>I HAVE PROOF OF THE LOST MONEY</u>.
 
 > Feel free to skip some paragraphs because i wanted to document all my journey, it's a long long article!
+
+> This is still a draft so it is not complete!
 
 ## The Many Reasons I Lost Money In A Scam
 
