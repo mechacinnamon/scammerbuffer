@@ -1,0 +1,186 @@
+{
+  "main": {
+    "id": "0d1d5c6c729372be",
+    "type": "split",
+    "children": [
+      {
+        "id": "7529afe9c3506141",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6179eb178b18e7da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2025-04-18-how-i-lost-3000-to-dropshipping-scammers.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-04-18-how-i-lost-3000-to-dropshipping-scammers"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "37e53d4d863d5f2d",
+    "type": "split",
+    "children": [
+      {
+        "id": "77dda545e367e012",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fd20d8640e02f9ae",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "30cac8471a9e74e1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5ae9d676a37a119e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f035f0472e164f8d",
+    "type": "split",
+    "children": [
+      {
+        "id": "7ca0ae8b46e746e2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e63b40d265ae80fd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Welcome"
+            }
+          },
+          {
+            "id": "24fb0826ea013854",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "3631bdca9f581655",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "979a228405e85279",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "6179eb178b18e7da",
+  "lastOpenFiles": [
+    "2025-04-22-example.md",
+    "2014-08-12-the-businessman-and-fisherman copy 3.md",
+    "2025-04-18-how-i-lost-3000-to-dropshipping-scammers.md",
+    "img/2025-04-18-how-i-lost-3000-to-dropshipping-scammers.png",
+    "img/Pasted image 20250419182458.png",
+    "img/Pasted image 20250419182413.png",
+    "img/1.png",
+    "img/Pasted.md",
+    "img",
+    "Pasted image 20250419180614.png",
+    "2025-04-17-how-fake-dropshipping-mentors-stole-my-money.md",
+    "Welcome.md"
+  ]
+}

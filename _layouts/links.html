@@ -5,19 +5,67 @@
     <div id="indicator"></div>
     <div id="page">
       <style>
+
         .links {
-          padding: 4%;
-          font-size: 21px;
-          font-weight: bold;
-          color: rgb(255, 151, 99) !important;
+          padding: 4% 10%;
+
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
         }
+
         .primary {
           color: rgb(151, 83, 240);
           font-weight: bold;
+          text-align: left;
+          color: #000;
+          background-color: #c05a2b;
+
         }
-        .links a {
-          line-height: 40px;
-          color: rgb(255, 151, 99) !important;
+
+        /* From Uiverse.io by satyamchaudharydev */ 
+        button {
+          --bg: #e7893c;
+          --text-color: #1d1d1d;
+          font-size:18px;
+          position: relative;
+          /*width: 150px;*/
+          border: none;
+          background: var(--bg);
+          color: var(--text-color);
+          padding: 1em;
+          font-weight: bold;
+          text-transform: uppercase;
+          transition: 0.2s;
+          border-radius: 5px;
+          opacity: 0.8;
+          letter-spacing: 1px;
+          box-shadow: #c05a2b 0px 7px 2px, #000 0px 8px 5px;
+        }
+
+        button:hover {
+          opacity: 1;
+          cursor: pointer;
+        }
+
+        button:active {
+          top: 4px;
+          box-shadow: #c0392b 0px 3px 2px,#000 0px 3px 5px;
+        }
+
+        /* From Uiverse.io by absoluteSTrange */ 
+        .card {
+          background: rgb(44, 44, 1);
+          border-radius: 10px;
+          transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+          padding: 16px 24px;
+          height: 200px;
+        }
+
+        .shadow {
+          box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+                      0 0  0 2px rgb(190, 190, 190),
+                      0.3em 0.3em 1em rgba(0,0,0,0.3);
         }
       </style>
       <!-- header -->
@@ -28,9 +76,36 @@
       <main class="content">
         <h1 class="title">Links</h1>
         <div class="links">
-          {{content}}
+
+          <h2>Special</h2>
+          <button onclick="window.open('mailto:legal.asset.07@gmail.com', '_blank')">
+            Send Me An Email (Contact Me)
+          </button>
+          <button onclick="window.open('https://scammerbuffer.gumroad.com', '_blank')">
+            Subscribe to my Newsletter on Gumroad (To Receive Emails)
+          </button>
+
+          <h2>Social Media</h2>
+          <button onclick="window.open('https://x.com/scammerbuffer', '_blank')">
+            X
+          </button>
+          <button onclick="window.open('https://www.youtube.com/channel/UCYC4RaYK1xUdCYLjbCQOK_w', '_blank')">
+            YouTube
+          </button>
+          <button onclick="window.open('https://discord.gg/WdfcApVt', '_blank')">
+            Discord (Or Befriend Scammerbuffer)
+          </button>
+          <button onclick="window.open('https://www.reddit.com/user/scammerbuffer/', '_blank')">
+            Reddit
+          </button>
+
         </div>
-        <p class="primary">Save yourself or others from the expensive mistakes and predatory schemes that obliterate most of dropshippers or beginner entrepreneurs. Share this website with someone who you may think is interested in droshipping and let him know about scammers in these entrepreneurial fields because he is in danger!</p>
+
+        <!-- From Uiverse.io by absoluteSTrange --> 
+        <div class="card shadow">
+          <p>Save yourself or others from the expensive mistakes and predatory schemes that obliterate most of dropshippers or beginner entrepreneurs. Share this website with someone who you may think is interested in droshipping and let him know about scammers in these entrepreneurial fields because he is in danger!</p>
+        </div>
+
       </main>
       <!-- footer -->
       {% include footer.html %}

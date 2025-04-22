@@ -1,7 +1,12 @@
 * {
 	outline: none;
-	--theme-color: rgb(217, 214, 107);
+	--theme-color: rgb(245, 240, 110);
 	box-sizing: border-box;
+}
+
+b {
+    font-weight: 800;
+    color: #af93ec;
 }
 
 html {
@@ -27,7 +32,7 @@ body {
 }
 
 img {
-	max-width: 100% !important;
+    max-width: 100% !important;
 }
 
 /* header */
@@ -133,8 +138,12 @@ footer p {
     header,
     footer,
     main {
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    nav {
+        line-height: 16px;
     }
 }
 

@@ -6,23 +6,54 @@
     <div id="page">
       <style>
         .links {
-          padding: 4%;
-          font-size: 21px;
-          font-weight: bold;
-          color: #70f05f !important;
-          
+          padding: 5% 10%;
+
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
         }
-        .primary {
-          color: rgb(151, 83, 240);
+
+        button {
+          --bg: #6aee4d;
+          --text-color: #1d1d1d;
+          font-size:18px;
+          position: relative;
+          /*width: 150px;*/
+          border: none;
+          background: var(--bg);
+          color: var(--text-color);
+          padding: 1em;
           font-weight: bold;
+          text-transform: uppercase;
+          transition: 0.2s;
+          border-radius: 5px;
+          opacity: 0.8;
+          letter-spacing: 1px;
+          box-shadow: #3fc02b 0px 7px 2px, #000 0px 8px 5px;
         }
-        .goal {
-          color: rgb(232, 240, 83);
-          font-weight: bold;
+
+        button:hover {
+          opacity: 1;
+          cursor: pointer;
         }
-        .links a {
-          line-height: 40px;
-          color: #70f05f !important;
+
+        button:active {
+          top: 4px;
+          box-shadow: #c0392b 0px 3px 2px,#000 0px 3px 5px;
+        }
+
+        .card {
+          background: rgb(44, 44, 1);
+          border-radius: 10px;
+          transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+          padding: 16px 24px;
+          height: 200px;
+        }
+
+        .shadow {
+          box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+                      0 0  0 2px rgb(190, 190, 190),
+                      0.3em 0.3em 1em rgba(0,0,0,0.3);
         }
       </style>
       <!-- header -->
@@ -33,10 +64,23 @@
       <main class="content">
         <h1 class="title">Donate</h1>
         <div class="links">
-          {{content}}
+
+          <button onclick="window.open('https://ko-fi.com/scammerbuffer', '_blank')">
+            Ko-fi
+          </button>
+          <button onclick="window.open('https://buymeacoffee.com/scammerbuffer/', '_blank')">
+            Buy me a coffee
+          </button>
+
         </div>
-        <p class="primary">Or just follow me and remember, spread the word! ;)</p>
-        <p class="goal">I have the goal to get back the money i had with some donations (around $3k), in return i will keep building this guide and become a reference in antiscamming! I also plan to make other projects!</p>
+
+        <!-- From Uiverse.io by absoluteSTrange --> 
+        <div class="card shadow">
+          <p>Or just follow me and remember, spread the word! ;)</p>
+          <hr>
+          <p>I have the goal to get back the money i had with some donations (around $3k), in return i will keep building this guide and become a reference in antiscamming! I also plan to make other projects!</p>
+        </div>
+        
       </main>
 
       <!-- footer -->

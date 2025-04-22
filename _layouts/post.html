@@ -5,14 +5,22 @@
     <div id="indicator"></div>
     <div id="page">
       <style>
+        .content {
+          display: flex;
+          flex-direction: column;
+        }
         .title {
           padding: 8%;
         }
         .meta {
           font-size: 16px;
           font-weight: 100;
+          font-family: "poppins", sans-serif;
           text-transform: uppercase;
-          font-style: italic;
+          font-style: normal;
+          margin-top: 12px;
+          font-weight: 360;
+          letter-spacing: 0.25px;
         }
       </style>
       <!-- header -->
@@ -21,7 +29,8 @@
       {% include nav.html %}
       <!-- page content -->
       <main class="content">
-        <h1 class="title">{{page.title}} <span class="meta">Written By {{page.author}}</span></h1>
+        <!--<h1 class="title">{{page.title}} <span class="meta">Written By {{page.author}}</span></h1>-->
+        <h1 class="title">{{page.title}} <span class="meta">{{page.subtitle}}</span></h1>
         {{content}}
       </main>
 

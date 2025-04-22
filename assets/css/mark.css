@@ -7,9 +7,9 @@ p {
 	line-height: 1.7em !important;
 	min-height: 1em !important;
 	box-sizing: border-box !important;
-	word-wrap: break-word !important;
+	/*word-wrap: break-word !important;*/
 	text-align: left;
-	margin: 24px 0 !important;
+	margin: 0 0 12px 0 !important;
 }
 
 blockquote {
@@ -34,7 +34,7 @@ body {
 pre {
 	background-color: #f8f8f8;
 	border-radius: 3px;
-	word-wrap: break-word;
+	/*word-wrap: break-word;*/
 	padding: 12px 13px;
 	font-size: 12px;
 }
@@ -45,8 +45,8 @@ h3,
 h4,
 h5,
 h6 {
-	word-break: break-all !important;
-	margin: 24px 0;
+	/*word-break: break-all !important;*/
+	margin: 28px 0 0 0 !important;
 	padding-bottom: 0.3em;
 	line-height: 1.2;
 	text-align: left;
@@ -100,15 +100,18 @@ h6 {
 a {
 	/* color: #ffa0c0 !important; */
 	color: #72b6b5 !important;
-	text-decoration: none;
+	text-decoration: none !important;
 }
 
 ul {
-	padding-left: 30px;
+	padding-left: 44px;
+	margin: 0 0 12px 0 !important;
+
 }
 
 ol {
-	padding-left: 40px;
+	padding-left: 60px;
+	margin: 0 0 12px 0 !important;
 }
 
 li {
