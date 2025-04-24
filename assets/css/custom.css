@@ -6,7 +6,7 @@
 
 b {
     font-weight: 800;
-    color: #af93ec;
+    color: #efefef;
 }
 
 html {
@@ -143,7 +143,33 @@ footer p {
     }
 
     nav {
-        line-height: 16px;
+        line-height: 40px !important;
+        text-align: justify !important;
+    }
+
+    main {
+        margin-top: 1rem;
+    }
+
+    header {
+        min-height: 20px;
+        margin: 1.5rem 3% -0.5rem 3%  !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .title {
+        padding: 10% !important;
+        color: #111010;
+        text-align: center;
+        display: grid;
+
+        font-size: 28px !important;
+    }
+
+    .title .meta {
+        font-size: 16px !important;
+        text-align: center;
     }
 }
 

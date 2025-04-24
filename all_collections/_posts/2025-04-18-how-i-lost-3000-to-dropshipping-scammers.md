@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How I Lost $3000 To Dropshipping Scammers
+title: How i Lost $3000 to Dropshipping Scammers
 date: 2025-04-18 22:28 +0200
 subtitle: How fake mentors tell lies and steal your money by selling you fake promises.
 author: SB
